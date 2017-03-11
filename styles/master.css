@@ -4,34 +4,116 @@ body{
 }
 
 .container {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-
+  box-sizing: border-box;
+	padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+	width: 90%;
+  background-color: yellow;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
-.container div {
-	box-sizing: border-box;
-	min-width: 150px;
-	padding: 10px;
+.header,.contenido,.footer{
+  width: 100%;
+  min-width: 150px;
+  padding: 20px;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  -webkit-flex-flow: row wrap;
 }
 
 .header{
-  background-color:  #5b7989;
-  color: white;
-  border-radius: 10px 10px 0px 0px;
+    background-color: #5b7989;
+}
+#titulo{
+  width: 100%;
+  background-color: green;
+}
+#navbar{
+  width: 100%;
+  background-color: green;
 }
 
 
-.header h1{
-    text-shadow: 2px 2px 0px #82c3a6;
+.contenido{
+  background-color:  #82c3a6;
+}
+#imgppal{
+  width: 100%;
+  background-color: green;
+}
+#img_sec_izq{
+  width: 100%;
+  background-color: green;
+}
+#img_sec_der{
+  width: 100%;
+  background-color: green;
+}
+
+.footer{
+  background-color: blue;
+}
+#contacto{
+  width: 100%;
+  background-color: green;
+}
+#terminos{
+  width: 100%;
+  background-color: green;
+}
+#redes_sociales{
+  width: 100%;
+  background-color: green;
+}
+#derechos{
+  width: 100%;
+  background-color: green;
+}
+
+@media (min-width: 900px) {
+  #titulo{
     width: 50%;
+    background-color: red;
+  }
+  #navbar{
+    width: 50%;
+    background-color: red;
+  }
+
+  #imgppal{
+    width: 100%;
+    background-color: red;
+  }
+  #img_sec_izq{
+    width: 50%;
+    background-color: red;
+  }
+  #img_sec_der{
+    width: 50%;
+    background-color: red;
+  }
+
+  #contacto{
+    width: 25%;
+    background-color: red;
+  }
+  #terminos{
+    width: 25%;
+    background-color: red;
+  }
+  #redes_sociales{
+    width: 25%;
+    background-color: red;
+  }
+  #derechos{
+    width: 25%;
+    background-color: red;
+  }
 }
-
-img{
-  box-shadow: 2px 2px 0px #02010a;
-}
-
-/*@media  (max-width:900px){
-
-}*/
