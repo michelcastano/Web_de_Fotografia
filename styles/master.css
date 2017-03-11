@@ -50,6 +50,9 @@ a{
   margin-right: 6%;
 }
 
+.active{
+  text-decoration: none;
+}
 
 a:visited, a:link{
   color: white;
