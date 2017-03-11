@@ -1,6 +1,8 @@
 body{
   background-color:  #02010a;
   font-family: 'Dancing Script', cursive;
+  color: white;
+  text-shadow: 2px 2px 0px #82c3a6;
 }
 
 img{
@@ -15,4 +17,11 @@ h1{
 
 nav{
   float: right;
+}
+
+#contenido {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
 }
