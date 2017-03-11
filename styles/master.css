@@ -33,7 +33,9 @@ body{
 }
 #titulo{
   width: 100%;
-  background-color: green;
+  text-shadow: 2px 2px 0px #02010a;
+  color: white;
+  text-align: center;
 }
 #navbar{
   width: 100%;
@@ -80,7 +82,7 @@ body{
 @media (min-width: 900px) {
   #titulo{
     width: 50%;
-    background-color: red;
+    text-align: left;
   }
   #navbar{
     width: 50%;
