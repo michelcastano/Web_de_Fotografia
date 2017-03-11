@@ -1,0 +1,18 @@
+body{
+  background-color:  #02010a;
+  font-family: 'Dancing Script', cursive;
+}
+
+img{
+  box-shadow: 2px 2px 0px #02010a;
+}
+
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 0px #82c3a6;
+}
+
+nav{
+  float: right;
+}
